@@ -7,6 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "ToysHandler.h"
+#import "ElectronicsHandler.h"
+#import "OtherItemsHandler.h"
+#import "Toy.h"
+#import "Electronics.h"
+#import "Trash.h"
 
 @interface ViewController ()
 
@@ -16,7 +22,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    BasicHandler *toysHandler = [[ToysHandler alloc] init];
+    BasicHandler *electronicsHandler = [[ElectronicsHandler alloc] init];
+    BasicHandler *otherItemHandler = [[OtherItemsHandler alloc] init];
+    
+    electronicsHandler.nextHandler = otherItemHandler;
+    toysHandler.nextHandler = electronicsHandler;
+    
+    BasicItem *toy = [[Toy alloc] init];
+    BasicItem *electronic = [[Electronics alloc] init];
+    BasicItem *trash = [[Trash alloc] init];
+    
+    [toysHandler handleItem:toy];
+    [toysHandler handleItem:electronic];
+    [toysHandler handleItem:trash];
 }
 
 

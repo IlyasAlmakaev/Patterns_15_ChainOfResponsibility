@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285713C01F4BF878008B5A4F /* BasicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 285713BF1F4BF878008B5A4F /* BasicHandler.m */; };
+		285713C41F4BF9EC008B5A4F /* ToysHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 285713C31F4BF9EC008B5A4F /* ToysHandler.m */; };
+		285713C71F4BFAB9008B5A4F /* ElectronicsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 285713C61F4BFAB9008B5A4F /* ElectronicsHandler.m */; };
+		285713CA1F4BFB02008B5A4F /* OtherItemsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 285713C91F4BFB02008B5A4F /* OtherItemsHandler.m */; };
 		287B9E691F4B8F4100231851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B9E681F4B8F4100231851 /* main.m */; };
 		287B9E6C1F4B8F4100231851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B9E6B1F4B8F4100231851 /* AppDelegate.m */; };
 		287B9E6F1F4B8F4100231851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B9E6E1F4B8F4100231851 /* ViewController.m */; };
 		287B9E721F4B8F4100231851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287B9E701F4B8F4100231851 /* Main.storyboard */; };
 		287B9E741F4B8F4100231851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287B9E731F4B8F4100231851 /* Assets.xcassets */; };
 		287B9E771F4B8F4100231851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287B9E751F4B8F4100231851 /* LaunchScreen.storyboard */; };
+		287B9E811F4B924D00231851 /* BasicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B9E801F4B924D00231851 /* BasicItem.m */; };
+		287B9E871F4B928300231851 /* Toy.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B9E861F4B928300231851 /* Toy.m */; };
+		287B9E8A1F4B929900231851 /* Electronics.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B9E891F4B929900231851 /* Electronics.m */; };
+		287B9E8D1F4B92AA00231851 /* Trash.m in Sources */ = {isa = PBXBuildFile; fileRef = 287B9E8C1F4B92AA00231851 /* Trash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		285713BE1F4BF878008B5A4F /* BasicHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicHandler.h; sourceTree = "<group>"; };
+		285713BF1F4BF878008B5A4F /* BasicHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicHandler.m; sourceTree = "<group>"; };
+		285713C21F4BF9EC008B5A4F /* ToysHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToysHandler.h; sourceTree = "<group>"; };
+		285713C31F4BF9EC008B5A4F /* ToysHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToysHandler.m; sourceTree = "<group>"; };
+		285713C51F4BFAB9008B5A4F /* ElectronicsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectronicsHandler.h; sourceTree = "<group>"; };
+		285713C61F4BFAB9008B5A4F /* ElectronicsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectronicsHandler.m; sourceTree = "<group>"; };
+		285713C81F4BFB02008B5A4F /* OtherItemsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherItemsHandler.h; sourceTree = "<group>"; };
+		285713C91F4BFB02008B5A4F /* OtherItemsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherItemsHandler.m; sourceTree = "<group>"; };
 		287B9E641F4B8F4100231851 /* Patterns_15_ChainOfResponsibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns_15_ChainOfResponsibility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287B9E681F4B8F4100231851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		287B9E6A1F4B8F4100231851 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +42,14 @@
 		287B9E731F4B8F4100231851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		287B9E761F4B8F4100231851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		287B9E781F4B8F4100231851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287B9E7F1F4B924D00231851 /* BasicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicItem.h; sourceTree = "<group>"; };
+		287B9E801F4B924D00231851 /* BasicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicItem.m; sourceTree = "<group>"; };
+		287B9E851F4B928300231851 /* Toy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toy.h; sourceTree = "<group>"; };
+		287B9E861F4B928300231851 /* Toy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toy.m; sourceTree = "<group>"; };
+		287B9E881F4B929900231851 /* Electronics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Electronics.h; sourceTree = "<group>"; };
+		287B9E891F4B929900231851 /* Electronics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Electronics.m; sourceTree = "<group>"; };
+		287B9E8B1F4B92AA00231851 /* Trash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trash.h; sourceTree = "<group>"; };
+		287B9E8C1F4B92AA00231851 /* Trash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trash.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +63,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		285713C11F4BF98D008B5A4F /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				285713BE1F4BF878008B5A4F /* BasicHandler.h */,
+				285713BF1F4BF878008B5A4F /* BasicHandler.m */,
+				285713C21F4BF9EC008B5A4F /* ToysHandler.h */,
+				285713C31F4BF9EC008B5A4F /* ToysHandler.m */,
+				285713C51F4BFAB9008B5A4F /* ElectronicsHandler.h */,
+				285713C61F4BFAB9008B5A4F /* ElectronicsHandler.m */,
+				285713C81F4BFB02008B5A4F /* OtherItemsHandler.h */,
+				285713C91F4BFB02008B5A4F /* OtherItemsHandler.m */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
 		287B9E5B1F4B8F4100231851 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +99,8 @@
 			children = (
 				287B9E6A1F4B8F4100231851 /* AppDelegate.h */,
 				287B9E6B1F4B8F4100231851 /* AppDelegate.m */,
+				287B9E7E1F4B922100231851 /* Model */,
+				285713C11F4BF98D008B5A4F /* Handlers */,
 				287B9E6D1F4B8F4100231851 /* ViewController.h */,
 				287B9E6E1F4B8F4100231851 /* ViewController.m */,
 				287B9E701F4B8F4100231851 /* Main.storyboard */,
@@ -77,6 +118,21 @@
 				287B9E681F4B8F4100231851 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		287B9E7E1F4B922100231851 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				287B9E7F1F4B924D00231851 /* BasicItem.h */,
+				287B9E801F4B924D00231851 /* BasicItem.m */,
+				287B9E851F4B928300231851 /* Toy.h */,
+				287B9E861F4B928300231851 /* Toy.m */,
+				287B9E881F4B929900231851 /* Electronics.h */,
+				287B9E891F4B929900231851 /* Electronics.m */,
+				287B9E8B1F4B92AA00231851 /* Trash.h */,
+				287B9E8C1F4B92AA00231851 /* Trash.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285713C41F4BF9EC008B5A4F /* ToysHandler.m in Sources */,
+				287B9E8D1F4B92AA00231851 /* Trash.m in Sources */,
+				285713C71F4BFAB9008B5A4F /* ElectronicsHandler.m in Sources */,
+				285713C01F4BF878008B5A4F /* BasicHandler.m in Sources */,
 				287B9E6F1F4B8F4100231851 /* ViewController.m in Sources */,
+				287B9E871F4B928300231851 /* Toy.m in Sources */,
 				287B9E6C1F4B8F4100231851 /* AppDelegate.m in Sources */,
+				285713CA1F4BFB02008B5A4F /* OtherItemsHandler.m in Sources */,
+				287B9E8A1F4B929900231851 /* Electronics.m in Sources */,
 				287B9E691F4B8F4100231851 /* main.m in Sources */,
+				287B9E811F4B924D00231851 /* BasicItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +378,7 @@
 				287B9E7D1F4B8F4100231851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
